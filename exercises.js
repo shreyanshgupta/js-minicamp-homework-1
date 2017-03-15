@@ -189,10 +189,7 @@ function getTriangleArea(base, height) {
 }
 
 function getCircleArea(radius) {
-    var circleArea0 = Math.pow(radius,2);
-    var circleArea1 = Math.PI * circleArea0;
-    var circleArea2 = Math.round(circleArea1);
-    return circleArea2;
+    return Math.round(Math.PI * (Math.pow(radius,2)));
   //return the rounded area of the circle given the radius
   //code here
 }
